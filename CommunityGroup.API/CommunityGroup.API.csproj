@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.5.3" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommunityGroup.Common\CommunityGroup.Common.csproj" />
+    <ProjectReference Include="..\CommunityGroup.IRepository\CommunityGroup.IRepository.csproj" />
+    <ProjectReference Include="..\CommunityGroup.Model\CommunityGroup.Model.csproj" />
+    <ProjectReference Include="..\CommunityGroup.Repository\CommunityGroup.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
